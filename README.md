@@ -1,7 +1,7 @@
 # The-Bibites-Vanilla-Expanded-Modpack
 A Modpack for the Bibites containing Mods which could be resonably added to the base game. 
 
-Activating/deactivating mods and chaging their settings can be done in the config.txt file in the games Mods folder
+Activating/deactivating mods and changing their settings can be done in the config.txt file in the games Mods folder
 
 ## Instalation Guide
 1) make a backup save of your Bibites folder somehwere
