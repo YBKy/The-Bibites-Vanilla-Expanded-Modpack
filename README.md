@@ -18,7 +18,7 @@ This mod adds 4 new activation functions for neurons, most notably the highly su
 4) Exp: Exponentiates Euler’s number e by the sum of inputs 
 
 ### Senses Plus: 
-This mod adds 4 new input neurons generally related to sensing:
+This mod adds 6 new input neurons generally related to sensing:
 1) Rotation Speed: Lets the Bibite sense its rotation speed
 2) Bibite Heading Angle: Lets the BIbite see the direction Bibites in view are moving towards.
 3) Target Diet: Lets the Bibite see the diet gene of the closes Bibite.
