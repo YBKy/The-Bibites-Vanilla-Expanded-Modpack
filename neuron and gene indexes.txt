@@ -27,8 +27,8 @@
  8:  AttackedDamage
  9:  BibiteCloseness
  10: BibiteAngle
- 11: NBibites
- 12: BibiteHeading       [SensesPlus]
+ 11: BibiteHeading       [SensesPlus]
+ 12: NBibites
  13: PlantCloseness
  14: PlantAngle
  15: NPlants
