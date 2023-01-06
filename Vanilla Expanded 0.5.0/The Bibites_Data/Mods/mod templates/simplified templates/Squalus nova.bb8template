@@ -1,0 +1,601 @@
+{
+  "name": "Squalus nova",
+  "description": "These \"Sharks\" are descended from the scavenger Vultures, sharing a similarly sparse and large environment, they eventually evolved to kill instead of just relying on naturally occurring corpses to feed.\n\nThanks to Storme and RadNugget for the incredible efforts they dedicated to finding out the dynamics that would allow predators to naturally evolve <3 ",
+  "version": "0.5",
+  "mod": "SimplifiedTemplates",
+  "genes": [
+    50.0,
+    13.2850714,
+    6.98126554,
+    1.05916715,
+    0.4642254,
+    0.28114894,
+    0.673580348,
+    0.0,
+    21.227169,
+    1.04944336,
+    0.0,
+    1.42017138,
+    0.0608596019,
+    0.4929775,
+    134.7314,
+    174.422928,
+    1.54019213,
+    15.3641043,
+    0.8938314,
+    0.2288886,
+    0.0484552979,
+    0.0,
+    1.89199817,
+    0.2737701,
+    15.7900009,
+    1.30132008,
+    2.328078,
+    9.743625
+  ],
+  "nodes": [
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 0,
+      "Inov": 0,
+      "Desc": "Constant",
+      "Value": 1.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 1,
+      "Inov": 0,
+      "Desc": "EnergyRatio",
+      "Value": 0.6679576,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 2,
+      "Inov": 0,
+      "Desc": "Maturity",
+      "Value": 1.074722,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 3,
+      "Inov": 0,
+      "Desc": "LifeRatio",
+      "Value": 0.7211493,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 4,
+      "Inov": 0,
+      "Desc": "Fullness",
+      "Value": 0.952176869,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 5,
+      "Inov": 0,
+      "Desc": "Speed",
+      "Value": 1.05372441,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 6,
+      "Inov": 0,
+      "Desc": "IsGrabbingObjects",
+      "Value": 1.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 7,
+      "Inov": 0,
+      "Desc": "AttackedDamage",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 8,
+      "Inov": 0,
+      "Desc": "BibiteConcentrationWeight",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 9,
+      "Inov": 0,
+      "Desc": "BibiteConcentrationAngle",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 10,
+      "Inov": 0,
+      "Desc": "NVisibleBibites",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 11,
+      "Inov": 0,
+      "Desc": "PelletConcentrationWeight",
+      "Value": 0.5075012,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 12,
+      "Inov": 0,
+      "Desc": "PelletConcentrationAngle",
+      "Value": -0.09574321,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 13,
+      "Inov": 0,
+      "Desc": "NVisiblePellets",
+      "Value": 6.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 14,
+      "Inov": 0,
+      "Desc": "MeatConcentrationWeight",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 15,
+      "Inov": 0,
+      "Desc": "MeatConcentrationAngle",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 16,
+      "Inov": 0,
+      "Desc": "NVisibleMeat",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 17,
+      "Inov": 0,
+      "Desc": "ClosestBibiteR",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 18,
+      "Inov": 0,
+      "Desc": "ClosestBibiteG",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 19,
+      "Inov": 0,
+      "Desc": "ClosestBibiteB",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 20,
+      "Inov": 0,
+      "Desc": "Tic",
+      "Value": 1.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 21,
+      "Inov": 0,
+      "Desc": "Minute",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 22,
+      "Inov": 0,
+      "Desc": "TimeAlive",
+      "Value": 3.837537,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 23,
+      "Inov": 0,
+      "Desc": "PheroSense1",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 24,
+      "Inov": 0,
+      "Desc": "PheroSense2",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 25,
+      "Inov": 0,
+      "Desc": "PheroSense3",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 26,
+      "Inov": 0,
+      "Desc": "Phero1Angle",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 27,
+      "Inov": 0,
+      "Desc": "Phero2Angle",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 28,
+      "Inov": 0,
+      "Desc": "Phero3Angle",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 29,
+      "Inov": 0,
+      "Desc": "Phero1Heading",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 30,
+      "Inov": 0,
+      "Desc": "Phero2Heading",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 31,
+      "Inov": 0,
+      "Desc": "Phero3Heading",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 0,
+      "TypeName": "Input",
+      "Index": 32,
+      "Inov": 0,
+      "Desc": "InfectionRate",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 3,
+      "TypeName": "TanH",
+      "Index": 33,
+      "Inov": 0,
+      "Desc": "Accelerate",
+      "Value": 0.9963554,
+      "LastInput": 3.15291786,
+      "LastOutput": 0.9963554
+    },
+    {
+      "Type": 3,
+      "TypeName": "TanH",
+      "Index": 34,
+      "Inov": 0,
+      "Desc": "Rotate",
+      "Value": -0.7739889,
+      "LastInput": -1.030201,
+      "LastOutput": -0.7739889
+    },
+    {
+      "Type": 3,
+      "TypeName": "TanH",
+      "Index": 35,
+      "Inov": 0,
+      "Desc": "Herding",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 1,
+      "TypeName": "Sigmoid",
+      "Index": 36,
+      "Inov": 0,
+      "Desc": "Want2Lay",
+      "Value": 0.7577314,
+      "LastInput": 1.140282,
+      "LastOutput": 0.7577314
+    },
+    {
+      "Type": 1,
+      "TypeName": "Sigmoid",
+      "Index": 37,
+      "Inov": 0,
+      "Desc": "Want2Eat",
+      "Value": 0.7375439,
+      "LastInput": 1.03324175,
+      "LastOutput": 0.7375439
+    },
+ {
+      "Type": 1,
+      "TypeName": "Sigmoid",
+      "Index": 38,
+      "Inov": 0,
+      "Desc": "Digestion",
+      "Value": 0.2929416,
+      "LastInput": -0.881139934,
+      "LastOutput": 0.2929416
+    },
+    {
+      "Type": 3,
+      "TypeName": "TanH",
+      "Index": 39,
+      "Inov": 0,
+      "Desc": "Grab",
+      "Value": 0.583644331,
+      "LastInput": 0.667972,
+      "LastOutput": 0.583644331
+    },
+    {
+      "Type": 1,
+      "TypeName": "Sigmoid",
+      "Index": 40,
+      "Inov": 0,
+      "Desc": "ClkReset",
+      "Value": 0.9927944,
+      "LastInput": 4.925668,
+      "LastOutput": 0.9927944
+    },
+    {
+      "Type": 5,
+      "TypeName": "ReLu",
+      "Index": 41,
+      "Inov": 0,
+      "Desc": "PhereOut1",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 5,
+      "TypeName": "ReLu",
+      "Index": 42,
+      "Inov": 0,
+      "Desc": "PhereOut2",
+      "Value": 0.0,
+      "LastInput": -5.91807,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 5,
+      "TypeName": "ReLu",
+      "Index": 43,
+      "Inov": 0,
+      "Desc": "PhereOut3",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 1,
+      "TypeName": "Sigmoid",
+      "Index": 44,
+      "Inov": 0,
+      "Desc": "Want2Grow",
+      "Value": 0.231380254,
+      "LastInput": -1.20053387,
+      "LastOutput": 0.231380254
+    },
+    {
+      "Type": 1,
+      "TypeName": "Sigmoid",
+      "Index": 45,
+      "Inov": 0,
+      "Desc": "Want2Heal",
+      "Value": 0.00257095648,
+      "LastInput": -5.960903,
+      "LastOutput": 0.00257095648
+    },
+    {
+      "Type": 1,
+      "TypeName": "Sigmoid",
+      "Index": 46,
+      "Inov": 0,
+      "Desc": "Want2Attack",
+      "Value": 0.5,
+      "LastInput": 0.0,
+      "LastOutput": 0.5
+    },
+    {
+      "Type": 3,
+      "TypeName": "TanH",
+      "Index": 47,
+      "Inov": 0,
+      "Desc": "ImmuneSystem",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+    {
+      "Type": 7,
+      "TypeName": "Latch",
+      "Index": 48,
+      "Inov": 0,
+      "Desc": "Hidden0",
+      "Value": 0.0,
+      "LastInput": 0.0,
+      "LastOutput": 0.0
+    },
+  ],
+  "synapses": [
+    {
+      "Inov": 0,
+      "NodeIn": 9,
+      "NodeOut": 34,
+      "Weight": 11.3178587,
+      "En": true
+    },
+    {
+      "Inov": 0,
+      "NodeIn": 15,
+      "NodeOut": 34,
+      "Weight": 3.80364323,
+      "En": true
+    },
+    {
+      "Inov": 0,
+      "NodeIn": 5,
+      "NodeOut": 36,
+      "Weight": 0.434357762,
+      "En": false
+    },
+    {
+      "Inov": 0,
+      "NodeIn": 3,
+      "NodeOut": 37,
+      "Weight": 1.43277085,
+      "En": true
+    },
+    {
+      "Inov": 0,
+      "NodeIn": 11,
+      "NodeOut": 33,
+      "Weight": 1.71828961,
+      "En": false
+    },
+    {
+      "Inov": 0,
+      "NodeIn": 3,
+      "NodeOut": 36,
+      "Weight": 1.581201,
+      "En": true
+    }, 
+    {
+      "Inov": 0,
+      "NodeIn": 0,
+      "NodeOut": 33,
+      "Weight": 3.17,
+      "En": true
+    }, 
+    {
+      "Inov": 0,
+      "NodeIn": 1,
+      "NodeOut": 39,
+      "Weight": 1,
+      "En": true
+    }, 
+    {
+      "Inov": 0,
+      "NodeIn": 13,
+      "NodeOut": 48,
+      "Weight": 1,
+      "En": true
+    }, 
+    {
+      "Inov": 0,
+      "NodeIn": 48,
+      "NodeOut": 34,
+      "Weight": -1,
+      "En": true
+    }
+    
+  ]
+}

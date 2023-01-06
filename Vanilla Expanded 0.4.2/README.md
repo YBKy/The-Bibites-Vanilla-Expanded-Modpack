@@ -6,10 +6,9 @@ Activating/deactivating mods and changing their settings can be done in the conf
 ## Instalation Guide
 1) make a backup save of your Bibites folder somehwere
 2) download the zip file and unzip it somewhere
-3) drag the "The Bibites_Data" folder of the right version into your Bibites folder. If it asks you, if you want to replace files, you confirm that. 
+3) drag the "The Bibites_Data" folder into your Bibites folder. If it asks you, if you want to replace files, you confirm that. 
 
 ## Mods Included
-in the newest version 0.5.0 there are:
 
 ### Neurons Plus: 
 This mod adds 4 new activation functions for neurons, most notably the highly suggested multiplication neuron:
@@ -28,23 +27,20 @@ This mod adds 6 new input neurons generally related to sensing:
 6) Own Red, Green and Blue letting the Bibite sense the red, green and blue components of its own color .
 
 ### YBKs Vision Rework Mod:
-This mod implements the Vision Rework suggested by YBK and Leo’s addition to it. It adds 3 output neurons controlling the vison of the Bibite:
+This Mod implements the Vision Rework suggested by YBK and Leo’s addition to it. It adds 3 output neurons controlling the vison of the Bibite:
 1) Field Of View: A multiplier by which the View Angle Gene is multiplied to determine the real View Angle
 2) Panning: The amount by which the Vision Cone is angled to the left/right of center
 3) Range Of View: A multiplier by which the View Range Gene is multiplied to determine the real View Range
 
 This Mod has one further configuration. If DefaultMultiplyerIsOne is true (which it is by default) Field of View and Range of View will be 1 if there are no inputs going into it. If it is false, the multipliers will be 0.5 if there are no inputs. 
 
-### Simpified Templates:
-This mod changes the defult templates to be simpler, to have no unnessesary synapses or neurons, while retaining all previous functionality
-
 ### Better Initial Connections:
-This mod adds a Bibite that is similar to the Deafult Bibite, but with additional helpful connections and a number of random connections. 
+This Mod aims to change the Helpful Initial Connections Option to get a stable population of Bibites quicker:
+1) unchanged. Links Constant to Accelerate and gives a minimally adapted stomach
+2) unchanged. Links a Food Angle to Rotate
+3) Links Energy Ratio to Growth. Also makes a random connection either through a neuron or through pheromones 
+4) Links Constant to Grab. 
+5) Makes 3 random connections. Those might be through a neuron or pheromones. 
 
-You can configure the number of random connections, the probability, that the connections will go through pheromones or a neuron, and and option to give the random connections to all Bibites, rather than just the Better Inital Connections Bibite. 
-
-### Soft Bibite Cap:
-This mod changes the functionality of the Bibite Cap. Instead of disallowing Bibites to lay eggs, while there are more Bibites than the cap allows, with this mod there is a probability of egg laying not working, with the energy still being consumed. This probability increases with every percent the number of Bibites is over the cap. Eggs also cost more, per percent over cap
-
-
+This Mod has one further configuration. If No Aggressive Virgins is true (which it is by deafult) No virgins will spawn with their Bibite Angle Neuron being connected to rotate. 
 
