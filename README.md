@@ -13,7 +13,7 @@ in the newest version 0.5.0 there are:
 
 
 ### Neurons Plus: 
-This mod adds 4 new activation functions for neurons, most notably the highly suggested multiplication neuron:
+This mod adds 3 new activation functions for neurons, and has pioneered one neuron, which has made it into the base game
 1) Mult: Multiplies all inputs together
 2) Div: Divides 1 by the sum of inputs
 3) Ln: Takes the natural logarithm of the sum of inputs
