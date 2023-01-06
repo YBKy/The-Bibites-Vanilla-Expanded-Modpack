@@ -11,6 +11,7 @@ Activating/deactivating mods and changing their settings can be done in the conf
 ## Mods Included
 in the newest version 0.5.0 there are:
 
+
 ### Neurons Plus: 
 This mod adds 4 new activation functions for neurons, most notably the highly suggested multiplication neuron:
 1) Mult: Multiplies all inputs together
