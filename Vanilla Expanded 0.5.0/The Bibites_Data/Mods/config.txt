@@ -1,0 +1,32 @@
+{
+  "NeuronsPlus": {
+    "Active": true
+  },
+  "SensesPlus": {
+    "Active": true
+  },
+  "YBKs_VisionReworkMod": {
+    "Active": true,
+
+    "DefaultMultiplyerIsOne": true
+  },
+
+
+  "SimplifiedTemplates": {
+    "Active": true
+  },
+  "BetterInitialConnections": {
+    "Active": true,
+
+    "AllGetRandomSynapses": false,
+    "RandomSynapsesNumber": 3, 
+    "ThroughNeuronProbability": 0.3,
+    "ThroughPheromonesProbability": 0.2
+  }, 
+
+
+  "SoftBibiteCap": {
+    "Active": true
+  }
+
+}
